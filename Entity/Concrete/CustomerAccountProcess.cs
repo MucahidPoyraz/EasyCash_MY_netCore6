@@ -9,6 +9,6 @@ namespace Entity.Concrete
     public class CustomerAccountProcess : BaseEntity
     {
         public int CustomerAccountId { get; set; }
-        public CustomerAccount CustomerAccount { get; set; }
+        public CustomerAccount? CustomerAccount { get; set; }
     }
 }
