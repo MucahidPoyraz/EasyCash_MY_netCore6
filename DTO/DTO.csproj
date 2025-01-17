@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AddressDto\" />
+    <Folder Include="AppRoleDto\" />
+    <Folder Include="AppUserDto\" />
+    <Folder Include="CityDto\" />
+    <Folder Include="CurrencyDto\" />
+    <Folder Include="CustomerAccountDto\" />
+    <Folder Include="CustomerAccountProcessDto\" />
+    <Folder Include="DistrictDto\" />
+  </ItemGroup>
+
+</Project>
